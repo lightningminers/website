@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +30,57 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.container{
+  margin: 0 auto;
+  max-width: 580px;
+  font-size: 12px;
+}
+
+.header {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header img {
+  width: 30px;
+  height: 30px;
+}
+
+.header .header-text{
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.content-header{
+  width: 100%;
+  height: 250px;
+  background-color: #282c34;
+}
+
+.content-header img{
+  height: 250px;
+}
+
+.content-container {
+  margin-top: 10px;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item a {
+  color: #0084ff;
+}
+
+.copyright a {
+  color: #0084ff;
 }
