@@ -32,14 +32,17 @@
   }
 } */
 
+.App{
+  width: 100%;
+}
+
 .container{
-  margin: 0 auto;
-  max-width: 580px;
   font-size: 12px;
 }
 
 .header {
-  width: 100%;
+  margin: 0 auto;
+  max-width: 580px;
   height: 52px;
   display: flex;
   flex-direction: row;
@@ -60,17 +63,19 @@
 }
 
 .content-header{
-  width: 100%;
+  margin: 0 auto;
+  max-width: 580px;
   height: 250px;
   background-color: #282c34;
-}
-
-.content-header img{
-  height: 250px;
+  position: relative;
 }
 
 .content-container {
+  margin: 0 auto;
+  max-width: 580px;
   margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .item {
@@ -79,6 +84,13 @@
 
 .item a {
   color: #0084ff;
+}
+
+.copyright {
+  margin: 0 auto;
+  max-width: 580px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .copyright a {

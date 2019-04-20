@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import icon from "./img/favicon.png";
 import articles from "./articles";
-import bg from "./img/5c07e6dcbd9df.png";
+import bg from "./img/bg.png";
 
 class App extends Component {
   render() {
@@ -14,8 +14,8 @@ class App extends Component {
             <span className="header-text">闪电矿工翻译组</span>
           </header>
           <div className="content">
-            <header className="content-header">
-              <img src={bg} />
+            <header className="content-header" style={{backgroundImage: `url(${bg})`}}>
+
             </header>
             <div className="content-container">
               {
