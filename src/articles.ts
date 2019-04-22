@@ -13,7 +13,7 @@ const articles = [
   {
     id: createUUID(),
     name: "使用 Jest 和 Enzyme 测试 React 组件",
-    url: "https://zhuanlan.zhihu.com/p/63279922",
+    url: "https://zhuanlan.zhihu.com/p/63297384",
     date: "2019-04-22"
   },
   {
