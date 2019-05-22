@@ -12,6 +12,12 @@ export type Articles = IArticle;
 const articles = [
   {
     id: createUUID(),
+    name: "七个 JavaScript 技巧",
+    url: "https://zhuanlan.zhihu.com/p/65775445",
+    date: "2019-05-13"
+  },
+  {
+    id: createUUID(),
     name: "使用 Jest 和 Enzyme 测试 React 组件",
     url: "https://zhuanlan.zhihu.com/p/63297384",
     date: "2019-04-22"
