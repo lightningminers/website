@@ -12,7 +12,19 @@ export type Articles = IArticle;
 const articles = [
   {
     id: createUUID(),
-    name: "七个 JavaScript 技巧",
+    name: "创造性的使用 Console API！",
+    url: "https://zhuanlan.zhihu.com/p/67048106",
+    date: "2019-05-25"
+  },
+  {
+    id: createUUID(),
+    name: "v8 release v7.5",
+    url: "https://zhuanlan.zhihu.com/p/66898244",
+    date: "2019-05-24"
+  },
+  {
+    id: createUUID(),
+    name: "7个有用的JavaScript技巧",
     url: "https://zhuanlan.zhihu.com/p/65775445",
     date: "2019-05-13"
   },
