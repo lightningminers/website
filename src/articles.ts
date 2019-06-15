@@ -12,9 +12,17 @@ export type Articles = IArticle;
 const articles = [
   {
     id: createUUID(),
+    name: "Using SVG",
+    url: "https://zhuanlan.zhihu.com/p/69306347",
+    date: "2019-06-15",
+    author: "chenmf"
+  },
+  {
+    id: createUUID(),
     name: "A Guide to Node.js Logging",
     url: "https://zhuanlan.zhihu.com/p/68755650",
-    date: "2019-06-11"
+    date: "2019-06-11",
+    author: "icepy"
   },
   {
     id: createUUID(),
