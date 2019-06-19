@@ -12,6 +12,13 @@ export type Articles = IArticle;
 const articles = [
   {
     id: createUUID(),
+    name: "How to make your HTML responsive by adding a single line of CSS",
+    url: "https://zhuanlan.zhihu.com/p/69809343",
+    date: "2019-06-19",
+    author: "hanxiansen"
+  },
+  {
+    id: createUUID(),
     name: "Using SVG",
     url: "https://zhuanlan.zhihu.com/p/69306347",
     date: "2019-06-15",
