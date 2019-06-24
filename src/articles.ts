@@ -12,6 +12,12 @@ export type Articles = IArticle;
 const articles = [
   {
     id: createUUID(),
+    name: "async/await应知应会",
+    url: "https://zhuanlan.zhihu.com/p/70556182",
+    date: "2019-06-24"
+  },
+  {
+    id: createUUID(),
     name: "How to make your HTML responsive by adding a single line of CSS",
     url: "https://zhuanlan.zhihu.com/p/69809343",
     date: "2019-06-19",
